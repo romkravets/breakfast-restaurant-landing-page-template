@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cookie&display=swap");
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+header,
+nav,
+section,
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+.font {
+  font-family: "Cookie", cursive;
+}
