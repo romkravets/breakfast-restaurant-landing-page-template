@@ -1,11 +1,13 @@
-.page-header {
+.page-header-wrapper {
   background-image: url(../../assets/images/header-bg.png);
-  min-height: 400px;
+  min-height: 800px;
   background-position: center;
   background-size: cover;
-  padding: 1rem 3rem 0 3rem;
+}
+.page-header {
   display: flex;
   justify-content: space-between;
+  padding: 1rem 3rem 0 3rem;
   &__logo {
     margin-top: 3rem;
   }
@@ -51,4 +53,39 @@
     font-size: 1.3rem;
     padding: 1rem 0;
   }
+  &__box-title {
+    display: flex;
+    position: relative;
+  }
+  &__title-container {
+    text-align: right;
+    width: 33%;
+    margin-top: 10%;
+  }
+  &__waffel-img-box {
+    width: 60%;
+  }
+  &__waffel-img {
+    position: absolute;
+    right: 0;
+    top: 54px;
+  }
+  &__tomato-img {
+    position: absolute;
+    top: -17%;
+    left: 44%;
+    transform: translate(-24%, 46%);
+  }
+  &__tomato-bold-img {
+    position: absolute;
+    left: -2%;
+    top: 82%;
+    transform: translate(50%, 50%);
+  }
+}
+
+.page-title {
+  font-family: "Cookie", cursive;
+  color: rgb(240, 75, 88);
+  font-size: 8rem;
 }

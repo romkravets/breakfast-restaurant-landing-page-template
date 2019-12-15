@@ -33,10 +33,6 @@ footer {
   padding: 0;
 }
 
-// .font {
-//   font-family: "Cookie", cursive;
-// }
-
 .page-wrapper {
   max-width: 1440px;
   margin: 0 auto;
@@ -46,10 +42,7 @@ footer {
   box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.2);
 }
 
-.page-header {
-  background-image: url(../../assets/images/header-bg.png);
-  min-height: 400px;
-  background-position: center;
-  background-size: cover;
-  padding: 1rem 2rem 0 2rem;
+.page-content {
+  flex-grow: 1;
+  background: #535353;
 }
