@@ -14,7 +14,6 @@
   &__phone-logo {
     display: flex;
     justify-content: flex-end;
-    padding-right: 1.5rem;
     margin-bottom: 1.4rem;
   }
   &__phone-logo-link {
@@ -32,7 +31,7 @@
   &__nav {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
   }
   &__items {
     list-style: none;
@@ -42,6 +41,7 @@
   &__item {
     //width: 20%;
     flex-grow: 1;
+    text-align: right;
   }
   &__link {
     color: rgb(246, 247, 247);
@@ -88,4 +88,7 @@
   font-family: "Cookie", cursive;
   color: rgb(240, 75, 88);
   font-size: 8rem;
+  &__time-text {
+    padding-right: 3rem;
+  }
 }
