@@ -1,0 +1,91 @@
+.page-header-wrapper {
+  background-image: url(../../assets/images/header-bg.png);
+  min-height: 800px;
+  background-position: center;
+  background-size: cover;
+}
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem 0 3rem;
+  &__logo {
+    margin-top: 3rem;
+  }
+  &__phone-logo {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1.5rem;
+    margin-bottom: 1.4rem;
+  }
+  &__phone-logo-link {
+    color: rgb(235, 174, 76);
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+  }
+  &__phone-logo-img {
+    padding: 0 1rem 0 0;
+  }
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+  &__items {
+    list-style: none;
+    display: flex;
+    width: 100%;
+  }
+  &__item {
+    //width: 20%;
+    flex-grow: 1;
+  }
+  &__link {
+    color: rgb(246, 247, 247);
+    text-transform: uppercase;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding: 1rem 0;
+  }
+  &__box-title {
+    display: flex;
+    position: relative;
+  }
+  &__title-container {
+    text-align: right;
+    width: 33%;
+    margin-top: 10%;
+  }
+  &__waffel-img-box {
+    width: 60%;
+  }
+  &__waffel-img {
+    position: absolute;
+    right: 0;
+    top: 54px;
+  }
+  &__tomato-img {
+    position: absolute;
+    top: -17%;
+    left: 44%;
+    transform: translate(-24%, 46%);
+  }
+  &__tomato-bold-img {
+    position: absolute;
+    left: -2%;
+    top: 82%;
+    transform: translate(50%, 50%);
+  }
+}
+
+.page-title {
+  font-family: "Cookie", cursive;
+  color: rgb(240, 75, 88);
+  font-size: 8rem;
+}
