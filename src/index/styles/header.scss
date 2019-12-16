@@ -50,7 +50,7 @@
     justify-content: center;
     align-items: center;
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding: 1rem 0;
   }
   &__box-title {
@@ -86,6 +86,7 @@
 
 .page-title {
   font-family: "Cookie", cursive;
+  font-weight: 400;
   color: rgb(240, 75, 88);
   font-size: 8rem;
   &__time-text {
