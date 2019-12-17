@@ -54,6 +54,28 @@
   min-height: 800px;
   background-position: center;
   background-size: cover;
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__container-title {
+    text-align: center;
+    position: relative;
+  }
+  &__title {
+    color: #ffffff;
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+  }
+  &__container-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  &__icon-senses {
+    padding: 0 1.5rem;
+  }
 }
 
 .section-title {
