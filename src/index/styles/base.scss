@@ -2,8 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Cookie&display=swap");
 @import "./variables.scss";
 
-* {
-  -webkit-box-sizing: border-box;
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -16,6 +17,9 @@ html {
 }
 
 body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
 }
@@ -33,6 +37,18 @@ section,
 footer {
   margin: 0;
   padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
 }
 
 .page-wrapper {
