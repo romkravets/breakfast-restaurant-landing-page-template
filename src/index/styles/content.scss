@@ -8,6 +8,7 @@
   &__description {
     margin: 0 auto;
     line-height: 2;
+    width: 90%;
     text-align: center;
   }
   &__container-btn {
@@ -15,6 +16,25 @@
     justify-content: center;
     width: 100%;
     margin: 3rem 0 4rem 0;
+  }
+}
+
+.section-story {
+  padding-top: 130px;
+  &__orange-left {
+    position: absolute;
+    top: 12%;
+    right: 6%;
+  }
+  &__berry-left {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+  }
+  &__berry-right {
+    position: absolute;
+    top: -3%;
+    right: 8%;
   }
 }
 
