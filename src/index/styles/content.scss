@@ -5,6 +5,7 @@
   width: 100%;
   padding: 80px 101px;
   position: relative;
+  min-height: 150px;
   &__description {
     margin: 0 auto;
     line-height: 2;
@@ -75,6 +76,21 @@
   }
   &__icon-senses {
     padding: 0 1.5rem;
+  }
+}
+
+.section-menu {
+  display: flex;
+  &__images {
+  }
+  &__information {
+  }
+  &_flex {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%;
+    width: 50%;
+    //padding: 0.5rem;
   }
 }
 
