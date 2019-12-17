@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 .page-header-wrapper {
   background-image: url(../../assets/images/header-bg.png);
   min-height: 800px;
@@ -50,7 +52,7 @@
     justify-content: center;
     align-items: center;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 1rem 0;
   }
   &__box-title {
@@ -85,7 +87,7 @@
 }
 
 .page-title {
-  font-family: "Cookie", cursive;
+  font-family: $accent-font;
   font-weight: 400;
   color: rgb(240, 75, 88);
   font-size: 8rem;
