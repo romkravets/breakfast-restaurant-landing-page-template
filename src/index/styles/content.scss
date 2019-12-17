@@ -36,6 +36,24 @@
     top: -3%;
     right: 8%;
   }
+  &__orange-botton {
+    position: absolute;
+    bottom: -18%;
+    left: 16%;
+    z-index: 2;
+  }
+  &__berry-bottom {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+  }
+}
+
+.section-senses {
+  background-image: url(../../assets/images/waffle-bg.png);
+  min-height: 800px;
+  background-position: center;
+  background-size: cover;
 }
 
 .section-title {
