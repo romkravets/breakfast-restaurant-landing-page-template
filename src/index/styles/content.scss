@@ -1,0 +1,117 @@
+@import "./variables.scss";
+.content-section {
+  //max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 80px 101px;
+  position: relative;
+  &__description {
+    margin: 0 auto;
+    line-height: 2;
+    width: 90%;
+    text-align: center;
+  }
+  &__container-btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 3rem 0 4rem 0;
+  }
+}
+
+.section-story {
+  padding-top: 130px;
+  &__orange-left {
+    position: absolute;
+    top: 12%;
+    right: 6%;
+  }
+  &__berry-left {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+  }
+  &__berry-right {
+    position: absolute;
+    top: -3%;
+    right: 8%;
+  }
+  &__orange-botton {
+    position: absolute;
+    bottom: -18%;
+    left: 16%;
+    z-index: 2;
+  }
+  &__berry-bottom {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+  }
+}
+
+.section-senses {
+  background-image: url(../../assets/images/waffle-bg.png);
+  min-height: 800px;
+  background-position: center;
+  background-size: cover;
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__container-title {
+    text-align: center;
+    position: relative;
+  }
+  &__title {
+    color: #ffffff;
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+  }
+  &__container-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  &__icon-senses {
+    padding: 0 1.5rem;
+  }
+}
+
+.section-title {
+  text-align: center;
+  font-weight: 400;
+  color: rgb(78, 86, 101);
+  margin-bottom: 42px;
+  line-height: 0.8;
+  &__first {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  &__second {
+    font-family: $accent-font;
+    color: $accent-color;
+    font-size: 6rem;
+    font-weight: 400;
+  }
+}
+
+.btn {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(250, 192, 197);
+  border-radius: 5px;
+  color: $base-font-color;
+  font-weight: 700;
+  font-family: $base-font;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  &__more {
+    text-align: center;
+  }
+}
