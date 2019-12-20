@@ -83,7 +83,7 @@
     position: relative;
   }
   &__title {
-    color: #ffffff;
+    color: $color-white;
     font-size: 2.5rem;
     letter-spacing: 4px;
   }
@@ -134,8 +134,104 @@
   }
 }
 
+.section-form {
+  position: relative;
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-weight: bold;
+  }
+  &__colum {
+    flex: 1 300px;
+    min-width: 0;
+    //background: #f55;
+    padding: 15px 0;
+  }
+  &__right {
+    //background: #57f;
+  }
+  &__imput-container {
+    margin-bottom: 1.6rem;
+  }
+  &__input {
+    outline: none;
+    background: transparent;
+    padding: 1.4rem 0.5rem 1.4rem 1rem;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    min-width: 70%;
+  }
+  &__waffel-img {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+  }
+  &__tomato-img {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 10%;
+  }
+}
+
+.page-footer {
+  &__container {
+    font-size: 1.2rem;
+    padding-top: 3rem;
+    background-image: url(../../assets/images/footer-bg.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+  &__content {
+    color: $color-white;
+    display: flex;
+    height: 10em;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  &__location {
+    padding-top: 1.7rem;
+  }
+  &__email-link {
+    text-decoration: none;
+    color: $color-white;
+  }
+  &__img {
+    margin: 0 auto;
+    padding: 2rem 0 0.5rem 0;
+  }
+  &__content-bottom {
+    color: $color-white;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  &__conpany {
+    display: flex;
+    align-items: center;
+  }
+  &__social-items {
+    display: flex;
+  }
+  &__social-item {
+    padding: 0.6rem;
+  }
+}
+
 .btn {
-  background-color: rgb(255, 255, 255);
+  background-color: $color-white;
   border: 1px solid rgb(250, 192, 197);
   border-radius: 5px;
   color: $base-font-color;
@@ -150,5 +246,12 @@
   text-transform: uppercase;
   &__more {
     text-align: center;
+  }
+  &__form {
+    background: $accent-color;
+    color: $color-white;
+    min-width: 70%;
+    padding: 1.4rem 0.5rem 1.4rem 0.5rem;
+    border: none;
   }
 }
