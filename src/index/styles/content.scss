@@ -83,7 +83,7 @@
     position: relative;
   }
   &__title {
-    color: #ffffff;
+    color: $color-white;
     font-size: 2.5rem;
     letter-spacing: 4px;
   }
@@ -135,6 +135,7 @@
 }
 
 .section-form {
+  position: relative;
   &__container {
     display: flex;
     flex-wrap: wrap;
@@ -156,10 +157,21 @@
   &__input {
     outline: none;
     background: transparent;
-    padding: 1.4rem 0.5rem 1.4rem 0.5rem;
+    padding: 1.4rem 0.5rem 1.4rem 1rem;
     border: 1px solid #bebebe;
     border-radius: 5px;
     min-width: 70%;
+  }
+  &__waffel-img {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+  }
+  &__tomato-img {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 10%;
   }
 }
 
@@ -178,7 +190,7 @@
     position: relative;
   }
   &__content {
-    color: #ffffff;
+    color: $color-white;
     display: flex;
     height: 10em;
     flex-direction: column;
@@ -191,14 +203,14 @@
   }
   &__email-link {
     text-decoration: none;
-    color: #ffffff;
+    color: $color-white;
   }
   &__img {
     margin: 0 auto;
     padding: 2rem 0 0.5rem 0;
   }
   &__content-bottom {
-    color: #ffffff;
+    color: $color-white;
     display: flex;
     position: absolute;
     bottom: 0;
@@ -219,7 +231,7 @@
 }
 
 .btn {
-  background-color: rgb(255, 255, 255);
+  background-color: $color-white;
   border: 1px solid rgb(250, 192, 197);
   border-radius: 5px;
   color: $base-font-color;
@@ -237,7 +249,7 @@
   }
   &__form {
     background: $accent-color;
-    color: #ffffff;
+    color: $color-white;
     min-width: 70%;
     padding: 1.4rem 0.5rem 1.4rem 0.5rem;
     border: none;
