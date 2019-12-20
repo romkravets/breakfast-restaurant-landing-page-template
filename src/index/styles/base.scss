@@ -51,6 +51,22 @@ select {
   font: inherit;
 }
 
+input {
+  color: $base-font-color;
+}
+
+::-webkit-input-placeholder {
+  color: $base-font-color;
+}
+
+:-ms-input-placeholder {
+  color: $base-font-color;
+}
+
+::placeholder {
+  color: $base-font-color;
+}
+
 .page-wrapper {
   max-width: 1440px;
   margin: 0 auto;
