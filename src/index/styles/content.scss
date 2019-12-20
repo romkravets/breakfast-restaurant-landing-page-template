@@ -134,6 +134,35 @@
   }
 }
 
+.section-form {
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-weight: bold;
+  }
+  &__colum {
+    flex: 1 300px;
+    min-width: 0;
+    //background: #f55;
+    padding: 15px 0;
+  }
+  &__right {
+    //background: #57f;
+  }
+  &__imput-container {
+    margin-bottom: 1.6rem;
+  }
+  &__input {
+    outline: none;
+    background: transparent;
+    padding: 1.4rem 0.5rem 1.4rem 0.5rem;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    min-width: 70%;
+  }
+}
+
 .page-footer {
   &__container {
     font-size: 1.2rem;
@@ -205,5 +234,12 @@
   text-transform: uppercase;
   &__more {
     text-align: center;
+  }
+  &__form {
+    background: $accent-color;
+    color: #ffffff;
+    min-width: 70%;
+    padding: 1.4rem 0.5rem 1.4rem 0.5rem;
+    border: none;
   }
 }
