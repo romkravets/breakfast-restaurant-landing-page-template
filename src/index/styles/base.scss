@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Cookie&display=swap");
 @import "./variables.scss";
@@ -5,6 +7,7 @@
 *,
 *::before,
 *::after {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -63,6 +66,14 @@ input {
   color: $base-font-color;
 }
 
+::-moz-placeholder {
+  color: $base-font-color;
+}
+
+::-ms-input-placeholder {
+  color: $base-font-color;
+}
+
 ::placeholder {
   color: $base-font-color;
 }
@@ -70,13 +81,21 @@ input {
 .page-wrapper {
   max-width: 1440px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   min-height: 100vh;
+  -webkit-box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.2);
 }
 
 .page-content {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
   flex-grow: 1;
   background: #ffffff;
 }
