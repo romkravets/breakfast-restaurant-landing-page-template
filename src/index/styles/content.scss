@@ -136,6 +136,7 @@
 
 .page-footer {
   &__container {
+    font-size: 1.2rem;
     padding-top: 3rem;
     background-image: url(../../assets/images/footer-bg.png);
     background-position: center;
@@ -156,6 +157,17 @@
     align-content: center;
     justify-content: center;
   }
+  &__location {
+    padding-top: 1.7rem;
+  }
+  &__email-link {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  &__img {
+    margin: 0 auto;
+    padding: 2rem 0 0.5rem 0;
+  }
   &__content-bottom {
     color: #ffffff;
     display: flex;
@@ -163,6 +175,17 @@
     bottom: 0;
     width: 100%;
     justify-content: space-between;
+    padding: 1rem;
+  }
+  &__conpany {
+    display: flex;
+    align-items: center;
+  }
+  &__social-items {
+    display: flex;
+  }
+  &__social-item {
+    padding: 0.6rem;
   }
 }
 
