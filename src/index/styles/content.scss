@@ -134,6 +134,23 @@
   }
 }
 
+.section-gallery {
+  //position: relative;
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__colum {
+    flex: 1 300px;
+    min-width: 0;
+    //background: #f55;
+    padding: 15px 0;
+  }
+  &__right {
+    //background: #57f;
+  }
+}
+
 .section-form {
   position: relative;
   &__container {
