@@ -49,27 +49,32 @@
     position: absolute;
     top: 12%;
     right: 6%;
+    width: 10%;
   }
   &__berry-left {
     position: absolute;
     top: 30%;
     left: 5%;
+    width: 3%;
   }
   &__berry-right {
     position: absolute;
-    top: -3%;
+    top: -2%;
     right: 8%;
+    width: 3%;
   }
   &__orange-botton {
     position: absolute;
     bottom: -18%;
     left: 16%;
     z-index: 2;
+    width: 15%;
   }
   &__berry-bottom {
     position: absolute;
     top: 70%;
     right: 15%;
+    width: 3%;
   }
 }
 
@@ -118,21 +123,19 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   &__images {
   }
   &__information {
-    padding-left: 4rem;
+    padding-left: 2rem;
   }
   &_flex {
-    -webkit-box-flex: 0;
-    -ms-flex-positive: 0;
-    flex-grow: 0;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
-    width: 50%;
-    //padding: 0.5rem;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 300px;
+    flex: 1 300px;
+    min-width: 0;
+    //padding: 15px 0;
   }
   &__title {
     text-align: left;
@@ -219,6 +222,7 @@
     position: absolute;
     z-index: 2;
     left: 0;
+    width: 15%;
   }
   &__tomato-img {
     position: absolute;
