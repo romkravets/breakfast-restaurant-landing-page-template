@@ -126,6 +126,10 @@
   font-weight: 400;
   color: rgb(240, 75, 88);
   font-size: 8rem;
+  &__brakfast-text {
+    display: block;
+    height: 100px;
+  }
   &__time-text {
     padding-right: 3rem;
   }
