@@ -17,7 +17,11 @@
       <header class="page-header-wrapper">
         <div class="page-header">
           <div class="page-header__logo">
-            <a href="#"><img src="../../assets/images/logo.png"/></a>
+            <a href="#"
+              ><img
+                class="page-header__logo-img"
+                src="../../assets/images/logo.png"
+            /></a>
           </div>
           <nav class="page-header__nav">
             <div class="page-header__phone-logo">
@@ -30,7 +34,14 @@
                 <span>(+91) 1737 070110</span></a
               >
             </div>
-            <div>
+
+            <div class="global-nav">
+              <div class="global-nav__mobile-controls">
+                <div class="global-nav__burger burger">
+                  <span class="burger__raw"></span>
+                  <span class="burger__raw"></span>
+                </div>
+              </div>
               <ul class="page-header__items">
                 <li class="page-header__item">
                   <a class="page-header__link" href="#">Home</a>
@@ -48,6 +59,7 @@
             </div>
           </nav>
         </div>
+
         <div class="page-header__box-title">
           <div class="page-header__title-container">
             <h1 class="page-title">
@@ -332,5 +344,13 @@
         </div>
       </footer>
     </div>
+
+    <script>
+      const burger = document.querySelector(".burger");
+      const nav = document.querySelector(".global-nav");
+      burger.addEventListener("click", () => {
+        nav.classList.toggle("global-nav_opened");
+      });
+    </script>
   </body>
 </html>
