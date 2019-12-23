@@ -203,8 +203,13 @@
     min-width: 0;
     padding: 15px 0;
   }
-  &__imput-container {
+  &__input-container {
     margin-bottom: 1.6rem;
+  }
+  &__label-text {
+    display: flex;
+    justify-content: center;
+    width: 18%;
   }
   &__input {
     outline: none;
