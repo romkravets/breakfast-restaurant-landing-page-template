@@ -201,14 +201,15 @@
     -ms-flex: 1 300px;
     flex: 1 300px;
     min-width: 0;
-    //background: #f55;
     padding: 15px 0;
   }
-  &__right {
-    //background: #57f;
-  }
-  &__imput-container {
+  &__input-container {
     margin-bottom: 1.6rem;
+  }
+  &__label-text {
+    display: flex;
+    justify-content: center;
+    width: 18%;
   }
   &__input {
     outline: none;
@@ -340,5 +341,6 @@
     min-width: 70%;
     padding: 1.4rem 0.5rem 1.4rem 0.5rem;
     border: none;
+    font-size: 1.4rem;
   }
 }

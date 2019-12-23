@@ -3,8 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta
+      name="description"
+      content="Web site Breakfast-restaurant landing page"
+    />
+    <meta
       name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Breakfast-restaurant</title>
@@ -17,10 +21,11 @@
       <header class="page-header-wrapper">
         <div class="page-header">
           <div class="page-header__logo">
-            <a href="#"
+            <a href="#" aria-label="logo Breakfast restaurant"
               ><img
                 class="page-header__logo-img"
                 src="../../assets/images/logo.png"
+                alt=""
             /></a>
           </div>
           <nav class="page-header__nav">
@@ -159,7 +164,7 @@
         </section>
         <section class="content-section section-menu">
           <div class="section-menu__images section-menu_flex">
-            <img src="../../assets/images/menu-img.png" />
+            <img src="../../assets/images/menu-img.png" alt="" />
           </div>
           <div class="section-menu__information section-menu_flex">
             <div class="section-title section-menu__title">
@@ -234,41 +239,61 @@
           <form class="section-form__container">
             <div class="section-form__left section-form__colum">
               <div class="section-form__imput-container">
-                <input
-                  class="section-form__input"
-                  type="text"
-                  placeholder="Name"
-                />
+                <label for="nameInput">
+                  <span class="section-form__label-text">Name</span>
+                  <input
+                    id="nameInput"
+                    class="section-form__input"
+                    type="text"
+                    placeholder="Name"
+                  />
+                </label>
               </div>
               <div class="section-form__imput-container">
-                <input
-                  class="section-form__input"
-                  type="date"
-                  placeholder="Date"
-                />
+                <label for="dateInput">
+                  <span class="section-form__label-text">Date</span>
+                  <input
+                    id="dateInput"
+                    class="section-form__input"
+                    type="date"
+                    placeholder="Date"
+                  />
+                </label>
               </div>
               <div class="section-form__imput-container">
-                <input
-                  class="section-form__input"
-                  type="number"
-                  placeholder="People"
-                />
+                <label for="numberInput">
+                  <span class="section-form__label-text">People</span>
+                  <input
+                    id="numberInput"
+                    class="section-form__input"
+                    type="number"
+                    placeholder="People"
+                  />
+                </label>
               </div>
             </div>
             <div class="section-form__right section-form__colum">
               <div class="section-form__imput-container">
-                <input
-                  class="section-form__input"
-                  type="text"
-                  placeholder="Email"
-                />
+                <label for="emailInput">
+                  <span class="section-form__label-text">Email</span>
+                  <input
+                    id="emailInput"
+                    class="section-form__input"
+                    type="text"
+                    placeholder="Email"
+                  />
+                </label>
               </div>
               <div class="section-form__imput-container">
-                <input
-                  class="section-form__input"
-                  type="number"
-                  placeholder="Time"
-                />
+                <label for="timeInput">
+                  <span class="section-form__label-text">Time</span>
+                  <input
+                    id="timeInput"
+                    class="section-form__input"
+                    type="number"
+                    placeholder="Time"
+                  />
+                </label>
               </div>
               <div class="">
                 <button class="btn btn__form">Find a table</button>
@@ -290,7 +315,7 @@
       <footer class="page-footer">
         <div class="page-footer__container">
           <div class="page-footer__content">
-            <a href="#">
+            <a href="#" aria-label="logo Breakfast restaurant">
               <img src="../../assets/images/logo.png" alt="" />
             </a>
             <div class="page-footer__location">
@@ -298,6 +323,7 @@
                 <img
                   class="page-footer__img"
                   src="../../assets/images/location-icon.png"
+                  alt=""
                 />
               </div>
               <span>Main Road, Building Name, Country</span>
@@ -308,6 +334,7 @@
                   <img
                     class="page-footer__img"
                     src="../../assets/images/email.png"
+                    alt=""
                   />
                 </div>
                 <span>info@companyname.com</span>
@@ -320,22 +347,22 @@
             </div>
             <div class="page-footer__social-items">
               <div class="page-footer__social-item">
-                <a href="#">
+                <a href="#" aria-label="Breakfast restaurant Instagram">
                   <img src="../../assets/images/instagram.png" alt="" />
                 </a>
               </div>
               <div class="page-footer__social-item">
-                <a href="#">
+                <a href="#" aria-label="Breakfast restaurant Facebook">
                   <img src="../../assets/images/facebook.png" alt="" />
                 </a>
               </div>
               <div class="page-footer__social-item">
-                <a href="#">
+                <a href="#" aria-label="Breakfast restaurant Twitter">
                   <img src="../../assets/images/twitter.png" alt="" />
                 </a>
               </div>
               <div class="page-footer__social-item">
-                <a href="#">
+                <a href="#" aria-label="Breakfast restaurant Whatsapp">
                   <img src="../../assets/images/whatsapp.png" alt="" />
                 </a>
               </div>
