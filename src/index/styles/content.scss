@@ -125,8 +125,6 @@
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  &__images {
-  }
   &__information {
     padding-left: 2rem;
   }
@@ -135,7 +133,6 @@
     -ms-flex: 1 300px;
     flex: 1 300px;
     min-width: 0;
-    //padding: 15px 0;
   }
   &__title {
     text-align: left;
@@ -164,7 +161,6 @@
 }
 
 .section-gallery {
-  //position: relative;
   &__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -177,11 +173,7 @@
     -ms-flex: 1 300px;
     flex: 1 300px;
     min-width: 0;
-    //background: #f55;
     padding: 15px 0;
-  }
-  &__right {
-    //background: #57f;
   }
 }
 
