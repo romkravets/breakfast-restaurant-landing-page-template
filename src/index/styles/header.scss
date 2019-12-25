@@ -239,7 +239,7 @@
     padding: 0 34px;
     height: calc(100vh - #{$global-nav-height});
     transform-origin: top center;
-    transition: all 200ms;
+    //transition: all 200ms;
     z-index: 3;
   }
 
@@ -262,6 +262,23 @@
 
   .global-nav_opened .burger__raw:last-child {
     transform: translateY(-5px) rotate(45deg);
+  }
+}
+@media (max-width: 991.98px) {
+  .page-header {
+    &__title-container {
+      margin-left: 5%;
+    }
+    &__waffel-img {
+      top: 142px;
+      width: 80%;
+    }
+    &__tomato-img {
+      top: -11%;
+    }
+    &__tomato-bold-img {
+      top: 548px;
+    }
   }
 }
 
