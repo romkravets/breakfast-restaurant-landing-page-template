@@ -172,7 +172,7 @@
   transition: all 500ms;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 991.98px) {
   .global-nav {
     width: 100%;
     display: flex;
@@ -305,6 +305,45 @@
     }
     &__phone-logo-link {
       font-size: 1rem;
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .page-header-wrapper {
+    min-height: 450px;
+  }
+  .page-header {
+    &__waffel-img {
+      display: none;
+    }
+    &__tomato-img {
+      display: none;
+    }
+    &__title-container {
+      text-align: center;
+      width: 100%;
+      margin: 0;
+    }
+    &__waffel-img-box {
+      display: none;
+    }
+    &__tomato-bold-img {
+      display: none;
+    }
+  }
+  .page-title {
+    font-size: 5rem;
+    &__time-text {
+      padding: 0;
+    }
+  }
+  .section-story {
+    padding-top: 50px;
+  }
+  .section-senses {
+    &__title {
+      font-size: 1.5rem;
     }
   }
 }
