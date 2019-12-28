@@ -61,6 +61,7 @@
 }
 
 .section-story {
+  padding-top: 140px;
   &__orange-left {
     position: absolute;
     top: 12%;
@@ -321,6 +322,9 @@
     &__tomato-img {
       display: none;
     }
+    &__input {
+      width: 100%;
+    }
   }
 }
 
@@ -423,6 +427,9 @@
   .page-footer {
     &__content {
       margin-bottom: 7rem;
+    }
+    &__location {
+      text-align: center;
     }
     &__company {
       font-size: 0.6rem;

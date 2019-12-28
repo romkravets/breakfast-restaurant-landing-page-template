@@ -241,6 +241,7 @@
     transform-origin: top center;
     //transition: all 200ms;
     z-index: 3;
+    margin-top: 3%;
   }
 
   .global-nav_opened > .page-header__items {
@@ -264,6 +265,13 @@
     transform: translateY(-5px) rotate(45deg);
   }
 }
+
+@media (orientation: "landscape") {
+  .page-header__items {
+    margin-top: 6%;
+  }
+}
+
 @media (max-width: 991.98px) {
   .page-header {
     &__title-container {
@@ -291,7 +299,7 @@
       margin-top: 1rem;
     }
     &__logo-img {
-      width: 50%;
+      width: 33%;
       margin: 0 auto;
     }
     &__phone-logo {
@@ -314,9 +322,7 @@
     min-height: 450px;
   }
   .page-header {
-    &__waffel-img {
-      display: none;
-    }
+    &__waffel-img,
     &__tomato-img {
       display: none;
     }
@@ -325,9 +331,7 @@
       width: 100%;
       margin: 0;
     }
-    &__waffel-img-box {
-      display: none;
-    }
+    &__waffel-img-box,
     &__tomato-bold-img {
       display: none;
     }
@@ -336,14 +340,6 @@
     font-size: 5rem;
     &__time-text {
       padding: 0;
-    }
-  }
-  .section-story {
-    padding-top: 50px;
-  }
-  .section-senses {
-    &__title {
-      font-size: 1.5rem;
     }
   }
 }
