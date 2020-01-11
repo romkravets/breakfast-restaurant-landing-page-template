@@ -377,13 +377,32 @@
         </div>
       </footer>
     </div>
-
     <script>
-      const burger = document.querySelector(".burger");
-      const nav = document.querySelector(".global-nav");
-      burger.addEventListener("click", () => {
-        nav.classList.toggle("global-nav_opened");
+      const BURGER = document.querySelector(".burger");
+      const BODY_TAG = document.querySelector("body");
+      const CLASS_OVERFLOW = "overflow-hidden";
+      const NAV = document.querySelector(".global-nav");
+      const PAGE_LINKS = document.querySelectorAll(".page-header__link");
+
+      BURGER.addEventListener("click", () => {
+        NAV.classList.toggle("global-nav_opened");
+        toggleOverflow();
       });
+
+      PAGE_LINKS.forEach(element => {
+        element.addEventListener("click", e => {
+          toggleOverflow();
+          NAV.classList.remove("global-nav_opened");
+        });
+      });
+
+      function toggleOverflow() {
+        if (BODY_TAG.classList.contains(CLASS_OVERFLOW)) {
+          BODY_TAG.classList.remove(CLASS_OVERFLOW);
+        } else {
+          BODY_TAG.classList.add(CLASS_OVERFLOW);
+        }
+      }
     </script>
   <script type="text/javascript" src="./index.js"></script></body>
 </html>
