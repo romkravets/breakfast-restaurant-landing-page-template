@@ -177,8 +177,6 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    //height: $global-nav-height;
-    //position: fixed;
     padding: 0 1rem;
     z-index: 3;
   }
@@ -212,7 +210,6 @@
 
   .page-header__item {
     padding: 0;
-    //opacity: 0;
     width: 100%;
     transition: opacity 500ms;
     transition-delay: 100ms;
@@ -239,7 +236,6 @@
     padding: 0 34px;
     height: calc(100vh - #{$global-nav-height});
     transform-origin: top center;
-    //transition: all 200ms;
     z-index: 3;
     margin-top: 3%;
   }
@@ -251,6 +247,10 @@
 
   .global-nav__link_with_image {
     display: none;
+  }
+
+  .overflow-hidden {
+    overflow: hidden;
   }
 
   .page-header__link {
